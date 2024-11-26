@@ -1,0 +1,18 @@
+.posts {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.div {
+  border: solid 1px black;
+  margin: 5px;
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+@media (min-width: 768px) {
+  .posts {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
